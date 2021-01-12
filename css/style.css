@@ -204,9 +204,53 @@ body {
 		border: solid thin;
 	}
 
+.side-line-1 {
+	border: solid;
+}
+
+	.anonymous-write-1 {
+		display: none;
+		justify-content: space-between;
+		align-items: flex-end;
+		height: 25vh;
+		width: 20vw;
+		border: solid;
+		margin: 0 0 0 1rem ;
+	}
+		.anonymous-toggle-1 {
+			width: 25%;
+			height: 10%;
+			margin: .5rem;
+			border-radius: 3rem;
+			border: solid thin;
+			background-color: gray;
+		}
+
+		.anonymous-button-1 {
+			font-size: 2rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			width: 25%;
+			height: 15%;
+			margin: .5rem;
+			border: solid;
+			max-width: 5rem;
+			flex: 1 0 4rem;
+		}
+
+	
 
 
 @media screen and (max-width: 950px) {
+	body {
+		display: flex;
+		flex-direction: column;
+
+		justify-content: space-between;
+		height: 97vh;
+	}
 	.menu-bar {
 		display: none;
 	}
@@ -224,11 +268,16 @@ body {
 	}
 
 	.content {
-		height: 73ch;
+		height: 60vh;
+		margin: auto 0 0 0;
 	}
 
 	.search-icon {
 		margin: 1rem;
+	}
+
+	.anonymous-write-1 {
+		display: flex;
 	}
 }
 
