@@ -289,6 +289,9 @@ body {
 	.menu-bar-1 {
 		display: flex;
 		height: 3.5rem;
+	}
+
+	.menu-bar-2 {
 		display: flex;
 	}
 
