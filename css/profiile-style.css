@@ -102,24 +102,26 @@ body {
   border-radius: 50%;
   border-radius: solid black thin;
   background-color: lightgray;
-  flex-shrink: 0
+  flex-shrink: 1;
 }
 
 .sub-profile {
   display: flex;
-  width: auto;
-  justify-content: center;
+  width: 50%;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  border: solid;
   margin: 1rem 0;
-  flex-shrink: 0
+  flex-shrink: 1;
 }
 
 .sub-text {
   font-weight: 800;
+  min-width: 5rem;
   display: flex;
   flex-wrap: wrap;
-  flex: 0 1 3rem;
+  flex: 0 1 0;
   justify-content: center;
 }
 
@@ -273,5 +275,15 @@ body {
   		display: none;
   	}
 
+  }
 
+  @media screen and (max-width: 500px) {
+
+    .pos {
+      display: none;
+    }
+
+    .head-border {
+      flex: 0 1 100%;
+    }
   }
