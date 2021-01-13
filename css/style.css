@@ -17,12 +17,12 @@ body {
 	justify-content: space-between;
 }
 	.logo {
-		height: 3rem;
-		width: 3rem;
+		height: 4rem;
+		width: 4rem;
 		margin: 1rem;
 		border-radius: 50%;
 		background-color: gray;
-		flex: 0 0 3rem;
+		flex: 0 0 4rem;
 	}
 
 	.search-bar {
@@ -112,13 +112,13 @@ body {
 		margin: 1rem;
 		border: solid thin;
 		flex: 0 0 5rem;
-	}	
+	}
 
 .side-line {
 	display: flex;
 	flex-direction: column;
 }
-	
+
 	.prof-head {
 		display: flex;
 		justify-content: flex-start;
@@ -250,13 +250,13 @@ body {
 		border: solid;
 		margin: 0 0 0 1rem ;
 	}
-		.anonymous-toggle-1 {
+		/* .anonymous-toggle-1 {
 			width: 25%;
 			height: 10%;
 			margin: .5rem;
 			border-radius: 3rem;
 			border: solid thin;
-			background-color: gray;
+			background-color: gray; */
 		}
 
 		.anonymous-button-1 {
@@ -311,6 +311,8 @@ body {
 	.anonymous-write-1 {
 		display: flex;
 	}
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -318,9 +320,3 @@ body {
 		display: none;
 	}
 }
-
-
-
-
-
-

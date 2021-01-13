@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/interactive.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/js.js">
+</script>
 <head>
 	<title>Kinaiya</title>
 </head>
 <body>
 	<div class="menu-bar">
-		<div class="logo"></div>
+		<div class="logo">
+		<img src="images/logo-icon.png" style="width:100%"></div>
 		<div class="search-bar" > <spam style="margin: 1rem; font-size: 125%">Search </spam></div>
 		<div class="search-icon">
-			<img src="../images/search-icon.png" style="width: 100%;"></div>
+			<img src="images/search-icon.png" style="width: 100%;"></div>
 		<div class="prof-icon">
-			<img src="../images/prof-icon.png" style="width: 125%; align-self: center; margin: 1rem;">
+			<img src="images/prof-icon.png" style="width: 125%; align-self: center; margin: 1rem;">
 		</div>
 		<div class="home-icon">
-			<img src="../images/home-icon.png" style="width: 100%;">
+			<img src="images/home-icon.png" style="width: 100%;">
 		</div>
 		<div class="notif-icon" >
-			<img src="../images/notif-icon.png" style="width: 100%;"></div>
+			<img src="images/notif-icon.png" style="width: 100%;"></div>
 		<div class="menu-icon">
-			<img src="../images/menu-icon.png" style="width: 100%;">
+			<img src="images/menu-icon.png" style="width: 100%;">
 
 		</div>
 	</div>
@@ -29,13 +33,16 @@
 		<div class="coins"></div>
 		<div class="user-name" style="font-size: 150%; margin: 0 auto 0 0;"> @username </div>
 		<div class="menu-icon-1">
-			<img src="../images/menu-icon.png" style="width: 100%;"></div>
+			<img src="images/menu-icon.png" style="width: 100%;"></div>
 	</div>
-
 	<div class="anonymous-write-1" style="width: auto; margin: 0">
-		<div class="anonymous-toggle-1" style="height: 1.5rem; width: 5rem " >
-			<input type="checkbox" style="opacity: 0; width: 0; height: 0;">
-		</div>
+		<div class="one-quarter" id="switch" style="margin:1rem">
+			<input type="checkbox" class="checkbox" id="chk" onclick="myFunction()"/>
+			<label class="label" for="chk">
+			<i class="fas fa-moon"></i>
+			<i class="fas fa-sun"></i>
+			<div class="ball"></div>
+			</label></div>
 		<div class="anonymous-button-1" style="padding: .3rem;"> <span style="font-size: 1.3rem;">Post</span> </div>
 	</div>
 
@@ -51,7 +58,13 @@
 			</div>
 			<div class="anonymous-bar">
 				<div class="anonymous-write">
-					<div class="anonymous-toggle" ></div>
+					<div class="one-quarter" id="switch" style="margin:1rem">
+						<input type="checkbox" class="checkbox" id="chk" onclick="myFunction2()"/>
+						<label class="label" for="chk">
+						<i class="fas fa-moon"></i>
+						<i class="fas fa-sun"></i>
+						<div class="ball"></div>
+						</label></div>
 					<div class="anonymous-button"> <span style="font-size: 1.5rem;">Post</span> </div>
 				</div>
 			</div>
@@ -93,7 +106,7 @@
 					<div class="user"> @user 04</div>
 				</div>
 				<span class="pos-text">
-				iba ako sa bahay 
+				iba ako sa bahay
 iba ako sa school
 iba ako sa personal
 iba ako sa online
@@ -127,16 +140,16 @@ n a</span>
 
 	<div class="menu-bar-1">
 		<div class="prof-icon">
-			<img src="../images/prof-icon.png" style="width: 125%; align-self: center; margin: 1rem;">
+			<img src="images/prof-icon.png" style="width: 125%; align-self: center; margin: 1rem;">
 		</div>
 		<div class="search-icon">
-			<img src="../images/search-icon.png" style="width: 100%;"></div>
+			<img src="images/search-icon.png" style="width: 100%;"></div>
 		<div class="search-bar" > <spam style="margin: 1rem; font-size: 125%">Search </spam></div>
 		<div class="home-icon">
-			<img src="../images/home-icon.png" style="width: 100%;">
+			<img src="images/home-icon.png" style="width: 100%;">
 		</div>
 		<div class="notif-icon" >
-			<img src="../images/notif-icon.png" style="width: 100%;"></div>
+			<img src="images/notif-icon.png" style="width: 100%;"></div>
 	</div>
 </body>
 </html>
