@@ -18,7 +18,7 @@ close_btn.addEventListener('click', () => {
 });
 
 function myFunction() {
-  var element = document.querySelector(".anonymous-write-1")
+  var element = document.querySelector(".content")
   var light = document.querySelector(".anonymous-button-1")
   element.classList.toggle('dark');
   light.classlist.toggle("light");

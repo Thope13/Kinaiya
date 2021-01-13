@@ -86,7 +86,6 @@ body {
 	display: none;
 	align-items: center;
 	justify-content: space-between;
-
 }
 
 .menu-bar-2 {
@@ -144,9 +143,10 @@ body {
 			border: solid thin;
 		}
 
-	.anonymous-write {
+	.anonymous-write, .anonymous-write-1 {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		align-items: flex-end;
 		height: 25vh;
 		width: 20vw;
@@ -162,7 +162,7 @@ body {
 			background-color: gray;
 		}
 
-		.anonymous-button {
+		.anonymous-button, .anonymous-button-1  {
 			font-size: 2rem;
 			display: flex;
 			justify-content: center;
