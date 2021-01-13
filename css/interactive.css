@@ -3,7 +3,7 @@
 }
 
 .content {
-  background-color: azure; 
+  background-color: azure;
 }
 
 .label {
@@ -24,7 +24,7 @@
 }
 
 .content.dark {
-	background: lightgray;
+	background: darkgray;
 }
 
 .light {
