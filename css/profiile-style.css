@@ -253,6 +253,10 @@ body {
   		height: 97vh;
   	}
 
+    .sub-profile {
+      font-size: 60%;
+    }
+
   	.menu-bar {
   		display: none;
       background-color: #ffccd6;
