@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	flex-direction: column;
+		background: #ffefd9;
 }
 
 .content {
@@ -15,7 +16,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-color: #ffccd6;
 }
+
 	.logo {
 		height: 4rem;
 		width: 4rem;
@@ -33,6 +36,7 @@ body {
 		background-color: lightgray;
 		border: solid thin;
 		border-radius: 3rem;
+		background: white;
 	}
 
 	.search-icon {
@@ -106,16 +110,23 @@ body {
 	}
 
 	.coins {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 		height: 2rem;
 		border-radius: 3rem;
 		margin: 1rem;
+		padding: .3rem .5rem;
 		border: solid thin;
-		flex: 0 0 5rem;
+		flex: 0 0 7rem;
+		background: white;
+
 	}
 
 .side-line {
 	display: flex;
 	flex-direction: column;
+	padding-right: 3rem;
 }
 
 	.prof-head {
@@ -124,7 +135,7 @@ body {
 		margin: 1rem;
 	}
 
-	.prof-pic {
+	.prof-pic, #profpic {
 		height: 7rem;
 		width: 7rem;
 		border-radius: 50%;
@@ -137,10 +148,15 @@ body {
 		margin: 1rem;
 	}
 		.coin {
+			display: flex;
+			justify-content: space-between;
+			padding: .3rem .5rem;
+			align-items: center;
 			height: 2rem;
 			border-radius: 3rem;
 			margin: 1rem;
 			border: solid thin;
+			background: white;
 		}
 
 	.anonymous-write, .anonymous-write-1 {
@@ -152,6 +168,8 @@ body {
 		width: 20vw;
 		border: solid;
 		margin: 0 0 0 1rem ;
+		background: white;
+		padding: 0 2rem;
 	}
 		.anonymous-toggle {
 			width: 25%;
@@ -177,20 +195,23 @@ body {
 		}
 
 	.go-premium {
+		color: white;
 		font-size: 3rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		height: 30vh;
 		width: 20vw;
-		border: solid;
-		margin: 2rem 0 0 1rem;
-		background-color: darkgray;
+		border: solid black;
+		margin: 2rem 0 2rem 1rem;
+		background-color: gray;
+		padding: 0 2rem;
 	}
 
 .content-timeline {
-	margin: 2rem 2rem 0 2rem;
+	margin: 2rem 2rem 0 0;
 	width: 80%;
+	/* background: #ffefd9; */
 	overflow: scroll;
 }
 
@@ -209,6 +230,7 @@ body {
 		padding: .1rem;
 		max-height: 150rem;
 		flex: 1 0 2rem;
+		background: white;
 	}
 
 	.pruf {
@@ -249,6 +271,7 @@ body {
 		width: 20vw;
 		border: solid;
 		margin: 0 0 0 1rem ;
+		background: white;
 	}
 		/* .anonymous-toggle-1 {
 			width: 25%;
@@ -286,13 +309,24 @@ body {
 		display: none;
 	}
 
+	.content-timeline {
+		margin: 0;
+	}
+
+	.content {
+		justify-content: center;
+		background: azure;
+	}
+
 	.menu-bar-1 {
 		display: flex;
 		height: 3.5rem;
+		background-color: #ffccd6;
 	}
 
 	.menu-bar-2 {
 		display: flex;
+		background-color: #ffccd6;
 	}
 
 	.side-line {
@@ -310,6 +344,7 @@ body {
 
 	.anonymous-write-1 {
 		display: flex;
+		background: white;
 	}
 
 
