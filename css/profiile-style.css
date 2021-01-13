@@ -79,6 +79,10 @@ body {
 		flex: 0 0 4rem;
 	}
 
+.head-border {
+  width: 100vw;
+}
+
 .profile-bar {
   display: flex;
   flex-direction: column;
@@ -89,9 +93,12 @@ body {
   flex: 1 1 100vw;
 }
 
+
+
 .profile-pic {
-  height: 25vh;
-  width: 25vh;
+  height: 24vh;
+  width: 24vh;
+  margin-top: 1rem;
   border-radius: 50%;
   border-radius: solid black thin;
   background-color: lightgray;
@@ -112,7 +119,7 @@ body {
   font-weight: 800;
   display: flex;
   flex-wrap: wrap;
-  flex: 0 1 6rem;
+  flex: 0 1 3rem;
   justify-content: center;
 }
 
@@ -205,7 +212,7 @@ body {
   	display: none;
   	align-items: center;
   	justify-content: space-between;
-
+    flex: 1 1 100%
   }
 
   @media screen and (max-width: 850px) {
@@ -214,17 +221,48 @@ body {
   		justify-content: space-between;
   		height: 97vh;
   	}
+
   	.menu-bar {
   		display: none;
   	}
 
+
   	.menu-bar-1 {
   		display: flex;
-  		height: 3.5rem;
   	}
 
-  	.profile-bar {
-      height: 20vh;
+    .head-border {
+      height: 35vh;
+      width: 100%;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    .profile-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;
+      height: 40vh;
+      border: none;
+      flex: 1 1 100vw;
+    }
+
+    .cover {
+      height: 25vh;
+      border-bottom:solid;
+      background: gray;
+      z-index: -1;
+
+    }
+
+    .profile-bar, .cover {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .cover {
+
     }
 
   	.search-icon {
